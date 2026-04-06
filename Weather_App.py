@@ -8,7 +8,7 @@ forecast_temp=[]
 forecast_time=[]
 def get_weather():
     city=city_entry.get()
-    API_key= "your_api_key_here"
+    API_key= "your_api_key_here"#  I am protect my API key here
 
     if city=="":
         result_label.config(text="Please enter the city name")
